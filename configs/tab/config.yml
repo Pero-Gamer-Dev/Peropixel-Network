@@ -1,1 +1,37 @@
+header-footer:
+  enabled: true
+  designs:
+    world-world1:
+      display-condition: '%world%=world1'
+      header:
+      - an example of world with custom
+      footer:
+      - header/footer and prefix/suffix
+    world-world2:world3:
+      display-condition: '%world%=world2|%world%=world3'
+      header:
+      - This is a shared header for
+      - world2 and world3
+      footer: []
+    server-server1:
+      display-condition: '%server%=server1'
+      header:
+      - an example of server with custom header
+      footer: []
+    default:
+      display-condition: '%world%!=disabledworld'
+      header:
+      - '&#1032FB&lᴘ&#1833FC&lᴇ&#2034FC&lʀ&#2835FD&lᴏ&#3037FD&lᴘ&#3838FE&lɪ&#4039FE&lx&#483AFF&lᴇ&#503BFF&lʟ '
+      - ''
+      - '&r&bOnline: &f%online%  |  &bPing: &f%ping%'
+      - ''
+      footer:
+      - '&b&mᴅɪѕᴄᴏʀᴅ &r&7| &r&d&mѕᴛᴏʀᴇ &7|&c&mʏᴏᴜᴛᴜʙᴇ'
+      - ''
+      - ''
+      - ''
+tablist-name-formatting:
+  enabled: true
+  disable-condition: '%world%=disabledworld'
+scoreboard-teams:
 
